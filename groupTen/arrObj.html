@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const notes = [
+        { title: "grocery list", note: "milk, sugar,bread" },
+        { title: "exercise Routine", note: "pushUps, sitUps, jogging" },
+        {
+          title: "study schedule",
+          note: "javascript, css grid, two modules of codecademy",
+        },
+        {
+          title: "meeting with team",
+          note: "project deadlines, assign tasks, next deliverable",
+        },
+        {
+          title: "recipe ideas",
+          note: "chicken stir_fry, ,fruit salad, pasta",
+        },
+        {
+          title: "weekend schedule",
+          note: "laundry,cooking,cleaning,beach",
+        },
+      ];
+      // for (i = 0; i < notes.length; i++) {
+      // console.log(notes[i]);
+      // }
+      notes.forEach((note) => {
+        console.log(`title ${note.title}, note ${note.note}`);
+      });
+    </script>
+  </body>
+</html>
